@@ -34,6 +34,7 @@ mkdir data
 mv rawdata data
 cd data
 mv rawdata raw
+
 # 3. List the contents of the ./data/raw directory
 ls raw
 
@@ -54,7 +55,7 @@ rm raw/*ipaddr*
 rm processed/user_logs/*ipaddr*
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
- ls processed >> inventory.txt
+ls processed >> inventory.txt
 
 ###########################################
 
